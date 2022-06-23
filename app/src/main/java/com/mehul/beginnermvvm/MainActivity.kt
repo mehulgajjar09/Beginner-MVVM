@@ -1,11 +1,21 @@
 package com.mehul.beginnermvvm
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.lifecycle.ViewModelProvider
+import com.mehul.beginnermvvm.databinding.ActivityMainBinding
+import com.mehul.corelibrary.core.CoreActivity
+import com.mehul.corelibrary.core.CoreViewModel
 
-class MainActivity : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+class MainActivity : CoreActivity<ActivityMainBinding>() {
+    override fun layoutID(): Int {
+        return R.layout.activity_main
+    }
+
+    override fun viewModel(): CoreViewModel {
+        return ViewModelProvider(this).get(CoreViewModel::class.java)
+    }
+
+    override fun initActivity(savedInstanceState: Bundle?) {
+
     }
 }
