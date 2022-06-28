@@ -1,3 +1,7 @@
 <resources>
     <string name="open_fragment">Open Fragment</string>
+    <string name="read_more">Read more</string>
+    <string name="read_less">Read less</string>
+
+    <integer name="slide_animation_duration">250</integer>
 </resources>

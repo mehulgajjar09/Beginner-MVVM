@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="_16dp">16dp</dimen>
+    <dimen name="_24dp">24dp</dimen>
+
+    <dimen name="text_headline_1">36sp</dimen>
+    <dimen name="text_headline_2">24sp</dimen>
+    <dimen name="text_headline_3">18sp</dimen>
+    <dimen name="text_headline_4">18sp</dimen>
+    <dimen name="text_headline_5">16sp</dimen>
+    <dimen name="text_headline_6">14sp</dimen>
+    <dimen name="text_CTA">16sp</dimen>
+    <dimen name="text_paragraph">16sp</dimen>
+    <dimen name="text_small_text">11sp</dimen>
+    <dimen name="text_small_text_2">12sp</dimen>
+    <dimen name="text_small_text_3">13sp</dimen>
+    <dimen name="text_large_text">42sp</dimen>
+    <dimen name="text_extra_large_text">64sp</dimen>
+</resources>

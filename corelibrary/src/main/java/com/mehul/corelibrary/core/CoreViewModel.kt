@@ -3,7 +3,7 @@ package com.mehul.corelibrary.core
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.MutableLiveData
-import com.mehul.corelibrary.helper.Event
+import com.mehul.corelibrary.helper.SingleEvent
 import io.reactivex.disposables.CompositeDisposable
 
 /**
@@ -19,11 +19,11 @@ import io.reactivex.disposables.CompositeDisposable
 open class CoreViewModel(application: Application) : AndroidViewModel(application) {
 
     protected var mDisposable: CompositeDisposable? = null
-    var validationErrorMessage = MutableLiveData<Event<Int>>()
-    var apiErrorMessage = MutableLiveData<Event<String>>()
-    var successMessage = MutableLiveData<Event<Int>>()
-    var successMessageFromAPI = MutableLiveData<Event<String>>()
-    var showProgress = MutableLiveData<Event<Boolean>>()
+    var validationErrorMessage = MutableLiveData<SingleEvent<Int>>()
+    var apiErrorMessage = MutableLiveData<SingleEvent<String>>()
+    var successMessage = MutableLiveData<SingleEvent<Int>>()
+    var successMessageFromAPI = MutableLiveData<SingleEvent<String>>()
+    var showProgress = MutableLiveData<SingleEvent<Boolean>>()
 
     override fun onCleared() {
         super.onCleared()

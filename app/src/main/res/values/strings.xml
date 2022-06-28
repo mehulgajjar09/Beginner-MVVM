@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Beginner MVVM</string>
+    <string name="library_description">
+    Basic MVVM base code structure\n\n
+        Project with below useful classes to kick start your project.\n\n
+    1) Core package classes (Activity, Fragment, DialogFragment, BottomSheetDialog Fragment classes).\n
+    2) Extension class (Activity, Fragment, Snack bar, view visibility, data time format).\n
+    3) Utility class (Hash key, hide keyboard)\n
+        4) Single Event class (Single event observer class).\n
+        5) Read more textview
+        6) Added One the for generic theme for entire project (Button, Dialog, textview styles).\n\n
+        Feel free to download and make changes as per your requirement.\n\n\n
+        Thank you,\n
+        Mehul Gajjar
+    </string>
 </resources>

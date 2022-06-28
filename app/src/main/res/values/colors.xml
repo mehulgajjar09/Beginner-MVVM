@@ -7,4 +7,16 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#FFBB86FC</color>
+    <color name="colorPrimaryDark">#FF6200EE</color>
+    <color name="colorAccent">#FF3700B3</color>
+
+    <!--  BG colors  -->
+    <color name="bg_level_1">#F8F8F7</color>
+    <color name="bg_level_2_overlay">#F4F5F1</color>
+    <color name="bg_level_3_card">#EDEDE8</color>
+    <color name="bg_level_4_cta">#DFE2DF</color>
+
+    <color name="darkTeal">#4F6362</color>
 </resources>
