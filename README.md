@@ -1,7 +1,6 @@
 # Beginner-MVVM
-Basic MVVM Architecture
 
-Basic MVVM base code structure
+Basic MVVM base code Architecture structure
 
 Project with below useful classes to kick start your project.
 1) Core package classes (Activity, Fragment, DialogFragment, BottomSheetDialog Fragment classes).
